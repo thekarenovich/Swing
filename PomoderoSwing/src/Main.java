@@ -46,7 +46,7 @@ public class Main{
                 });
                 jPanel.remove(button);
                 jPanel.add(close);
-                jLabel.setText("Работаем :)");
+                jLabel.setText("Let's go to work :)");
                 jPanel.revalidate();
             }
         });
