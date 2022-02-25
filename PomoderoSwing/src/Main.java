@@ -11,6 +11,8 @@ import java.util.concurrent.TimeUnit;
 public class Main{
 
     public static void main(String[] args) {
+        Task ts = new Task();
+
         JFrame jFrame = new JFrame();
         jFrame.setVisible(true);
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -34,6 +36,7 @@ public class Main{
 
             @Override
             public void actionPerformed(ActionEvent e) {
+                ts.startTask();
                 JButton close = new JButton("Close");
                 close.addActionListener(new ActionListener() {
                     @Override
