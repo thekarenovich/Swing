@@ -7,6 +7,7 @@ import java.util.Timer;
 
 public class newFrame {
     public void createNewFrame(){
+        Task ts1 = new Task();
 
         JFrame jFrame1 = new JFrame();
         jFrame1.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -29,6 +30,7 @@ public class newFrame {
                 btn.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        ts1.startTask();
                         jFrame1.setVisible(false);
                     }
                 });

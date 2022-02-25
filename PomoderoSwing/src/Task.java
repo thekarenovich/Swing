@@ -3,12 +3,13 @@ import java.util.TimerTask;
 
 public class Task {
     public void startTask(){
+        newFrame nf = new newFrame();
 
         Timer timer = new Timer();
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-
+                nf.createNewFrame();
             }
         };
         long delay = 1000l;
