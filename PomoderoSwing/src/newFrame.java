@@ -16,7 +16,7 @@ public class newFrame {
         jFrame1.setBounds(dimension.width/2 - 100, dimension.height/2 - 50, 200, 100);
         jFrame1.setVisible(true);
 
-        JLabel jLabel1 = new JLabel("Отдохните 5 минут :)");
+        JLabel jLabel1 = new JLabel("Take break for 5 minute :)");
         JPanel jPanel1 = new JPanel();
         jFrame1.add(jPanel1);
         jPanel1.add(jLabel1);
